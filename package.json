@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author":"huxinfeng <huxinfeng1024@qq.com>",
+  "author": "huxinfeng <huxinfeng1024@qq.com>",
   "scripts": {
     "dev": "max dev",
     "build": "max build",
