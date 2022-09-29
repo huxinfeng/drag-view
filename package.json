@@ -10,7 +10,8 @@
     "start": "npm run dev"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint --config .commitlintrc.js -e -V"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -19,6 +20,8 @@
     "antd": "^4.20.7"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "lint-staged": "^13.0.3",
