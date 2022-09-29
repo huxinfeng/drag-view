@@ -2,11 +2,11 @@
   "*.{md,json}": [
     "prettier --cache --write"
   ],
-  "*.{js,jsx}": [
+  "*.js": [
     "max lint --fix --eslint-only",
     "prettier --cache --write"
   ],
-  "*.{css,less}": [
+  "*.less": [
     "max lint --fix --stylelint-only",
     "prettier --cache --write"
   ],
